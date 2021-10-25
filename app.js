@@ -3,7 +3,7 @@ const express = require('express')
 const { multiply } = require('mathjs')
 const app = express()
 const math = require('mathjs')
-const port = 5000
+const port = process.env.PORT || 5000
 
 
 
